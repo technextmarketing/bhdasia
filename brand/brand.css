@@ -1,4 +1,7 @@
-@font-face{font-family:"Figtree";src:url("../assets/fonts/figtree-latin-wght-normal.woff2") format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Plus Jakarta Sans";src:url("../assets/fonts/plus-jakarta-sans-latin.woff2") format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("../assets/fonts/inter-latin.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+/* legacy name used across this stylesheet -> now the heading face */
+@font-face{font-family:"Figtree";src:url("../assets/fonts/plus-jakarta-sans-latin.woff2") format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
 :root{
   --ivory:#FFFBF4;--sand:#FBF3E6;--peach:#FDECCF;--line:#EFE3D0;--white:#fff;
   --marigold:#FFB21A;--marigold-dk:#F2A100;--sun:#EECB36;--red:#CD1827;--navy:#012564;
@@ -445,3 +448,35 @@ footer.colophon a{color:var(--sun)}
 #social .pgal{grid-template-columns:repeat(4,1fr)}
 #social .pgal .post{grid-column:auto;grid-row:auto}
 @media (max-width:900px){#social .pgal{grid-template-columns:repeat(2,1fr)}}
+
+/* ===== REDESIGN 8 Nov 2026: the book follows the new bhdasia.com system ===== */
+:root{--ivory:#FFFDF9;--sand:#FAF6EF;--peach:#FFF3DF;--line:#ECE5D9;--marigold:#F2C46D;--marigold-dk:#24386A;--sun:#F1DD9A;--body:#4B5163;--muted:#6B7080;
+  --sh:0 1px 2px rgba(20,36,74,.05),0 10px 26px -18px rgba(20,36,74,.18)}
+body{font-family:Inter,system-ui,sans-serif}
+p,li,dd,dt,label,input,small,.note,.role,code{font-family:Inter,system-ui,sans-serif}
+h1,h2,h3,h4,.big,.num,.aa-spec{font-family:"Plus Jakarta Sans",Inter,sans-serif}
+.bhd-btn{background:#14244A!important;color:#fff!important;border:1px solid #14244A!important;border-radius:12px!important;min-height:48px;padding:0 22px!important;
+  font:600 15px/1 "Plus Jakarta Sans",Inter,sans-serif!important;box-shadow:0 1px 2px rgba(20,36,74,.12)!important;transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .3s}
+.bhd-btn::before{width:auto!important;height:auto!important;inset:0;left:0!important;top:0!important;border-radius:inherit;transform:translateX(-135%)!important;
+  background:linear-gradient(105deg,transparent 28%,rgba(255,255,255,.3) 50%,transparent 72%)!important;transition:transform .75s cubic-bezier(.2,.8,.2,1)!important}
+.bhd-btn:hover{transform:translateY(-2px);box-shadow:0 14px 28px -14px rgba(20,36,74,.6)!important}
+.bhd-btn:hover::before{width:auto!important;height:auto!important;transform:translateX(135%)!important}
+.bhd-btn:hover svg{transform:translateX(4px)}.bhd-btn svg{transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
+.bhd-btn:active{transform:scale(.97)}
+.bhd-btn.ol{background:#fff!important;color:#14244A!important;border-color:#D8DEE9!important;box-shadow:none!important}
+.bhd-btn.ol::before{background:linear-gradient(105deg,transparent 28%,rgba(242,196,109,.3) 50%,transparent 72%)!important}
+.bhd-btn.ol:hover{border-color:#14244A!important}
+.mock-h .cta{background:#14244A!important;color:#fff!important;border-radius:10px!important}
+.shadow-demo{border-radius:16px!important;border:1px solid #ECE5D9;box-shadow:none!important}
+.navu{text-decoration-color:#F2C46D!important}
+.eyebrow-demo{color:#8F5A00!important;letter-spacing:.12em!important}
+.silk-demo{width:100%;height:120px;display:block}
+.silk-demo path{fill:none;stroke:#D6A03C;stroke-width:1;animation:bb-silk 8s ease-in-out infinite;animation-delay:calc(var(--d) * -1)}
+@keyframes bb-silk{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.ctr-demo{font-family:"Plus Jakarta Sans",Inter,sans-serif}
+@media (prefers-reduced-motion:reduce){.silk-demo path{animation:none}}
+/* download buttons and mock headline follow the new system */
+.dl-btn{background:#14244A!important;color:#fff!important;border:1px solid #14244A!important;border-radius:10px!important;font:600 14px/1 "Plus Jakarta Sans",Inter,sans-serif!important;box-shadow:none!important;transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .3s!important}
+.dl-btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px -14px rgba(20,36,74,.6)!important;background:#24386A!important}
+.dl-btn svg{stroke:currentColor!important;color:#fff}
+.mock-hero h3 em{color:#5d6b8c!important;font-style:normal}

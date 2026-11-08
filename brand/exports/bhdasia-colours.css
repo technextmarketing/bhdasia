@@ -1,17 +1,19 @@
 :root{
-  --bhd-marigold: #FFB21A;
-  --bhd-ink: #14244A;
-  --bhd-ivory: #FFFBF4;
-  --bhd-sun: #EECB36;
-  --bhd-deep-navy: #0E1C3A;
-  --bhd-marigold-dark: #F2A100;
-  --bhd-sand: #FBF3E6;
-  --bhd-peach: #FDECCF;
-  --bhd-line: #EFE3D0;
-  --bhd-warm-body: #4F4A45;
-  --bhd-warm-muted: #6F6A64;
-  --bhd-amber-ink: #8F5A00;
-  --bhd-deep-2: #13254D;
-  --bhd-logo-red: #CD1827;
-  --bhd-logo-navy: #012564;
+  --bhd-navy:#14244A; /* The action colour: buttons, headings and text. */
+  --bhd-marigold:#F2C46D; /* Soft accent: highlights, selected tabs, chips, the hero silk. */
+  --bhd-ivory:#FFFDF9; /* Page background. */
+  --bhd-deep-navy:#0E1C3A; /* Footer and dark call-to-action bands. */
+  --bhd-amber-ink:#8F5A00; /* Eyebrows, icons and orange text on light (AA). */
+  --bhd-navy-hover:#24386A; /* Primary button hover. */
+  --bhd-sand:#FAF6EF; /* Alternate sections. */
+  --bhd-peach:#FFF3DF; /* Soft warm fills. */
+  --bhd-navy-tint:#F2F5FA; /* Cool hero wash, quiet panels. */
+  --bhd-line:#ECE5D9; /* Hairlines and card borders. */
+  --bhd-field-border:#D8DEE9; /* Secondary buttons and form fields. */
+  --bhd-body:#4B5163; /* Body text. */
+  --bhd-muted:#6B7080; /* Secondary text and labels. */
+  --bhd-sun-soft:#F1DD9A; /* Soft sun accent. */
+  --bhd-logo-sun:#EECB36; /* The sail, in the logo only. */
+  --bhd-logo-red:#CD1827; /* Two-bar accent and logo only. */
+  --bhd-logo-navy:#012564; /* Two-bar accent and logo only. */
 }

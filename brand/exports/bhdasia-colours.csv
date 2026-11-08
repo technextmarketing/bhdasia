@@ -1,16 +1,18 @@
-name,hex,r,g,b,c,m,y,k,role
-Marigold,#FFB21A,255,178,26,0,30,90,0,"Primary. Buttons, highlights, active states."
-Ink,#14244A,20,36,74,73,51,0,71,"Headings and text; the label on marigold."
-Ivory,#FFFBF4,255,251,244,0,2,4,0,"Page background."
-Sun,#EECB36,238,203,54,0,15,77,7,"The sail. Accents and underlines."
-Deep navy,#0E1C3A,14,28,58,76,52,0,77,"Footer and dark call-to-action cards."
-Marigold dark,#F2A100,242,161,0,0,33,100,5,"Hover fill, focus ring, marigold words on posters."
-Sand,#FBF3E6,251,243,230,0,3,8,2,"Alternate sections."
-Peach,#FDECCF,253,236,207,0,7,18,1,"Soft fills and highlights."
-Line,#EFE3D0,239,227,208,0,5,13,6,"Hairlines."
-Warm body,#4F4A45,79,74,69,0,6,13,69,"Body text."
-Warm muted,#6F6A64,111,106,100,0,5,10,56,"Secondary text."
-Amber ink,#8F5A00,143,90,0,0,37,100,44,"Orange text on light surfaces (AA)."
-Deep 2,#13254D,19,37,77,75,52,0,70,"Second stop of the dark card gradient."
-Logo red,#CD1827,205,24,39,0,88,81,20,"Two-bar accent only."
-Logo navy,#012564,1,37,100,99,63,0,61,"Two-bar accent only."
+name,hex,rgb,cmyk,role
+Navy,#14244A,20 36 74,73 51 0 71,"The action colour: buttons, headings and text."
+Marigold,#F2C46D,242 196 109,0 19 55 5,"Soft accent: highlights, selected tabs, chips, the hero silk."
+Ivory,#FFFDF9,255 253 249,0 1 2 0,Page background.
+Deep navy,#0E1C3A,14 28 58,76 52 0 77,Footer and dark call-to-action bands.
+Amber ink,#8F5A00,143 90 0,0 37 100 44,"Eyebrows, icons and orange text on light (AA)."
+Navy hover,#24386A,36 56 106,66 47 0 58,Primary button hover.
+Sand,#FAF6EF,250 246 239,0 2 4 2,Alternate sections.
+Peach,#FFF3DF,255 243 223,0 5 13 0,Soft warm fills.
+Navy tint,#F2F5FA,242 245 250,3 2 0 2,"Cool hero wash, quiet panels."
+Line,#ECE5D9,236 229 217,0 3 8 7,Hairlines and card borders.
+Field border,#D8DEE9,216 222 233,7 5 0 9,Secondary buttons and form fields.
+Body,#4B5163,75 81 99,24 18 0 61,Body text.
+Muted,#6B7080,107 112 128,16 12 0 50,Secondary text and labels.
+Sun soft,#F1DD9A,241 221 154,0 8 36 5,Soft sun accent.
+Logo sun,#EECB36,238 203 54,0 15 77 7,"The sail, in the logo only."
+Logo red,#CD1827,205 24 39,0 88 81 20,Two-bar accent and logo only.
+Logo navy,#012564,1 37 100,99 63 0 61,Two-bar accent and logo only.
