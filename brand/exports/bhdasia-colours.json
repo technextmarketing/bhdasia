@@ -1,0 +1,227 @@
+{
+ "Marigold": {
+  "hex": "#FFB21A",
+  "rgb": [
+   255,
+   178,
+   26
+  ],
+  "cmyk_naive": [
+   0,
+   30,
+   90,
+   0
+  ],
+  "role": "Primary. Buttons, highlights, active states."
+ },
+ "Ink": {
+  "hex": "#14244A",
+  "rgb": [
+   20,
+   36,
+   74
+  ],
+  "cmyk_naive": [
+   73,
+   51,
+   0,
+   71
+  ],
+  "role": "Headings and text; the label on marigold."
+ },
+ "Ivory": {
+  "hex": "#FFFBF4",
+  "rgb": [
+   255,
+   251,
+   244
+  ],
+  "cmyk_naive": [
+   0,
+   2,
+   4,
+   0
+  ],
+  "role": "Page background."
+ },
+ "Sun": {
+  "hex": "#EECB36",
+  "rgb": [
+   238,
+   203,
+   54
+  ],
+  "cmyk_naive": [
+   0,
+   15,
+   77,
+   7
+  ],
+  "role": "The sail. Accents and underlines."
+ },
+ "Deep navy": {
+  "hex": "#0E1C3A",
+  "rgb": [
+   14,
+   28,
+   58
+  ],
+  "cmyk_naive": [
+   76,
+   52,
+   0,
+   77
+  ],
+  "role": "Footer and dark call-to-action cards."
+ },
+ "Marigold dark": {
+  "hex": "#F2A100",
+  "rgb": [
+   242,
+   161,
+   0
+  ],
+  "cmyk_naive": [
+   0,
+   33,
+   100,
+   5
+  ],
+  "role": "Hover fill, focus ring, marigold words on posters."
+ },
+ "Sand": {
+  "hex": "#FBF3E6",
+  "rgb": [
+   251,
+   243,
+   230
+  ],
+  "cmyk_naive": [
+   0,
+   3,
+   8,
+   2
+  ],
+  "role": "Alternate sections."
+ },
+ "Peach": {
+  "hex": "#FDECCF",
+  "rgb": [
+   253,
+   236,
+   207
+  ],
+  "cmyk_naive": [
+   0,
+   7,
+   18,
+   1
+  ],
+  "role": "Soft fills and highlights."
+ },
+ "Line": {
+  "hex": "#EFE3D0",
+  "rgb": [
+   239,
+   227,
+   208
+  ],
+  "cmyk_naive": [
+   0,
+   5,
+   13,
+   6
+  ],
+  "role": "Hairlines."
+ },
+ "Warm body": {
+  "hex": "#4F4A45",
+  "rgb": [
+   79,
+   74,
+   69
+  ],
+  "cmyk_naive": [
+   0,
+   6,
+   13,
+   69
+  ],
+  "role": "Body text."
+ },
+ "Warm muted": {
+  "hex": "#6F6A64",
+  "rgb": [
+   111,
+   106,
+   100
+  ],
+  "cmyk_naive": [
+   0,
+   5,
+   10,
+   56
+  ],
+  "role": "Secondary text."
+ },
+ "Amber ink": {
+  "hex": "#8F5A00",
+  "rgb": [
+   143,
+   90,
+   0
+  ],
+  "cmyk_naive": [
+   0,
+   37,
+   100,
+   44
+  ],
+  "role": "Orange text on light surfaces (AA)."
+ },
+ "Deep 2": {
+  "hex": "#13254D",
+  "rgb": [
+   19,
+   37,
+   77
+  ],
+  "cmyk_naive": [
+   75,
+   52,
+   0,
+   70
+  ],
+  "role": "Second stop of the dark card gradient."
+ },
+ "Logo red": {
+  "hex": "#CD1827",
+  "rgb": [
+   205,
+   24,
+   39
+  ],
+  "cmyk_naive": [
+   0,
+   88,
+   81,
+   20
+  ],
+  "role": "Two-bar accent only."
+ },
+ "Logo navy": {
+  "hex": "#012564",
+  "rgb": [
+   1,
+   37,
+   100
+  ],
+  "cmyk_naive": [
+   99,
+   63,
+   0,
+   61
+  ],
+  "role": "Two-bar accent only."
+ }
+}
